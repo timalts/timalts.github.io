@@ -126,6 +126,10 @@
     background-color: #222; border-color: #222; color: #fff;
 } 
 
+.btn-cta{
+    border-radius: 5px;
+}
+
 .container-btn .btn-ghost i { color: #222 }
 .container-btn .btn-ghost:focus i, 
 .container-btn .btn-ghost:hover i, 
@@ -133,6 +137,7 @@
 
 /* Buttons: corner styles */
 .container-btn .btn-soft    { border-radius: 5px }
+.container-btn .btn-solid    { border-radius: 5px }
 .container-btn .btn-rounded { border-radius: 30px }
 
 /* Buttons: Font Awesome icons */
