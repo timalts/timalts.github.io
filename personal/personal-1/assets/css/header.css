@@ -68,7 +68,7 @@
 
 .hero-block-two-columns .item-2 h1 {
     font-family: 'Rubik', sans-serif; 
-    color: #2c3e50;
+    color: #0080ff;
 	font-weight: 600; 
 	line-height: 1.1;
     margin-bottom: 20px;
@@ -78,7 +78,7 @@
 
 .hero-block-two-columns .item-2 h2 { 
 	font-weight: normal; 
-	color: #4b6584;
+	color: #2c6fbb;
     line-height: 1.3;
 	margin-bottom: 30px;    
 	font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1600 - 320))); 
@@ -109,12 +109,12 @@
 
 /* Solid buttons */
 .container-btn .btn-solid:any-link {
-    background-color: #50e3c2; border-color:  #50e3c2; color: #222;
+    background-color: #0080ff; border-color:  #ffffff; color: #222;
 }
 
 .container-btn :is(.btn-solid:focus, .btn-solid:hover,.btn-solid:active) {
-    background-color: #222; border-color: #222; color: #fff;
-}
+    background-color: rgb(12, 45, 65); border-color: rgb(12, 45, 65); color: #fff;
+}   
 
 
 /* Ghost buttons */
@@ -123,7 +123,7 @@
 } 
 
 .container-btn :is(.btn-ghost:focus, .btn-ghost:hover, .btn-ghost:active)  {
-    background-color: #222; border-color: #222; color: #fff;
+    background-color: rgb(12, 45, 65); border-color: rgb(12, 45, 65); color: #fff;
 } 
 
 .btn-cta{
@@ -136,8 +136,8 @@
 .container-btn .btn-ghost:active i { color: #fff } 
 
 /* Buttons: corner styles */
-.container-btn .btn-soft    { border-radius: 5px }
-.container-btn .btn-solid    { border-radius: 5px }
+.container-btn .btn-soft    { border-radius: 4px }
+.container-btn .btn-solid    { border-radius: 4px }
 .container-btn .btn-rounded { border-radius: 30px }
 
 /* Buttons: Font Awesome icons */

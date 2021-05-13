@@ -3,7 +3,7 @@
 body { font-family: 'Rubik', sans-serif }
 h1, h2, h3 { color: #222 }
 p, li { color: #403d50 }
-.bg-pastel-green { background-color: rgb(227,250,245) }
+.bg-pastel-green { background-color: rgb(205, 236, 250) }
 .bg-pastel-grey { background-color: #edf5f1 }
 
 
@@ -62,14 +62,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color: rgb(80,227,194);
-    background-color: rgb(80,227,194);
+    border-color: #0080ff;
+    background-color: #0080ff;
     color: #000;
 } 
  
 a.button-solid:hover, .button-solid:active {
-    border-color: #403d50;
-    background-color: #403d50;
+    border-color: rgb(12, 45, 65);
+    background-color: rgb(12, 45, 65);
     color: #fff
 }
  
@@ -80,8 +80,8 @@ a.button-ghost:link, a.button-ghost:visited {
 } 
  
 a.button-ghost:hover, .button-ghost:active {
-    border-color: #403d50;
-    background-color: #403d50;
+    border-color: rgb(12, 45, 65);
+    background-color: rgb(12, 45, 65);
     color: #fff
 }
  
@@ -105,9 +105,9 @@ a.fancy-link:hover, a.fancy-link:active {
     padding-bottom: 2px;
 }
 
-a.fancy-link:link, a.fancy-link:visited { color: rgb(49,145,131); border-bottom-color:rgb(49,145,131) }
+a.fancy-link:link, a.fancy-link:visited { color: #2c6fbb; border-bottom-color:#2c6fbb }
 
-a.fancy-link:hover, a.fancy-link:active { color: rgb(36,64,84); border-bottom-color: rgb(36,64,84) }
+a.fancy-link:hover, a.fancy-link:active { color: rgb(12, 45, 65); border-bottom-color: rgb(12, 45, 65)   }
 
 
 /* ============== FLEXBOX MULTI-COLUMN LAYOUTS ================== */
@@ -343,7 +343,7 @@ img.image-circle {
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid rgb(49,145,131);
+	border: 2px solid #2c6fbb;
 	background-color: #f0f0f0;
 	border-radius: 5px;
 }
@@ -358,7 +358,7 @@ img.image-circle {
 #contact-form #btn-submit { 
 	float: right; 
 	border: none; 
-    background-color: rgb(80,227,194);
+    background-color: #0080ff;
     color: #000;
 	font-weight: bold;
     padding: 18px 28px;
@@ -368,7 +368,7 @@ img.image-circle {
 
 #contact-form #btn-submit:hover, 
 #contact-form #btn-submit:active { 
-    background-color: #403d50;
+    background-color: rgb(12, 45, 65);
     color: #fff
 }
 

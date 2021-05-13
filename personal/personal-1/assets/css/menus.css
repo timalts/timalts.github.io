@@ -268,9 +268,9 @@
 .menu-light ul li a.btn-cta { font-weight: 500 }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
-    border-color: rgb(80,227,194);
-    background-color: rgb(80,227,194);
-    color: #000;
+    border-color: #0080ff;
+    background-color: #0080ff;
+    color: rgb(12, 45, 65);
 }
 
 .menu-light ul li a.btn-cta:hover,
@@ -282,7 +282,7 @@
 
 /* on mobiles only */
 .flyout-menu.menu-light { background-color: rgb(227,250,245) }
-.menu-light.flyout-menu hr { background-color:rgb(80,227,194); border-color: rgb(80,227,194) } 
+.menu-light.flyout-menu hr { background-color:#0080ff; border-color: #0080ff } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
@@ -300,7 +300,7 @@ a[href^=tel] { text-decoration: none; color: red }
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color: rgb(80,227,194);
+    border-bottom-color: #0080ff;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -309,9 +309,9 @@ a[href^=tel] { text-decoration: none; color: red }
 }
 
 /* profile image border colour */
-.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: rgb(80,227,194) }
+.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #0080ff }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color: rgb(80,227,194) }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: #0080ff }
 
 /* === End light background menu === */

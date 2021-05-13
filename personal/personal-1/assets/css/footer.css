@@ -32,7 +32,7 @@ footer h5 {
     font-family: sans-serif;
     font-weight: normal;
     font-style:  italic;
-    color: #38a696;
+    color: rgb(12, 45, 65);
     margin: 0 auto 36px auto;
     font-size: calc(20px + (32 - 20) * ((100vw - 320px)/(1600 - 320)));
 }
